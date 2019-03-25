@@ -1,7 +1,7 @@
 require_relative 'scooter'
 require_relative 'dirt'
 require_relative 'sport'
-require_relative 'cruse'
+require_relative 'cruise'
 
 class BikeFactory
   def get_bike(type)
@@ -11,8 +11,8 @@ class BikeFactory
       Dirt.new
     elsif type=='Sport'
       Sport.new
-    elsif type=='Cruse'
-      Cruse.new
+    elsif type=='Cruise'
+      Cruise.new
     end
   end
 end
