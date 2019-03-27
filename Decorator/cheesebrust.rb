@@ -1,4 +1,5 @@
-class CheeseBrust
+require_relative 'pizza_decorator'
+class CheeseBrust < PizzaDecorator
     @topping_cost=30
     def initialize(pizza)
         @pizza=pizza        

@@ -1,4 +1,5 @@
-class Onion
+require_relative 'pizza_decorator'
+class Onion < PizzaDecorator
     @topping_cost=30
     def initialize(pizza)
         @pizza=pizza        
