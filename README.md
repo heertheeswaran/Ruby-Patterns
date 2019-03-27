@@ -1,4 +1,7 @@
 # Ruby-Patterns
+
+This consists of simple examples of the following patterns in Ruby;
+
 * [Factory](#factory)
 * [Abstract Factory](#abstract-factory)
 * [Template Method](#template-method)
@@ -34,7 +37,18 @@ Here, we create a system for Trip Organizers which lists the details of each pac
 
 ## Adapter
 
+The adapter pattern convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces.
+
 ### Implementation
 
+Here we have two classes Android and IOS which are incompatible. AndriodIOSAdapter is the adapter class which adapts the Android as the IOS. 
 
 ## Decorator
+
+The decorator pattern attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+
+### Implementation
+
+Here we explain the decorator with pizza store as an example. Consider we have three pizza Farmhouse, PeppyPanner, SimplePizza in the store and the following add-ons onion, cheesebrust. 
+
+In the pizza sotre, we create objects for each pizza and returns the price to be paid. If the user wants the add-ons we need to return the price included the addon amount. So we add a pizza decorator. Using this decorator, we add those addon objects to the pizza object which returns the exat price of the pizza.
