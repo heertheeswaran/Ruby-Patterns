@@ -56,7 +56,7 @@ In the pizza sotre, we create objects for each pizza and returns the price to be
 
 ## Instructions
 
-Considering you have installed Ruby. Install the Rspec gem using the Gemfile in each pattern with the command - bundle. To install Rspece directly run-- gem install rspec.
+Considering you have installed Ruby. Install the Rspec gem using the Gemfile in each pattern with the command - bundle. To install Rspec directly run-- gem install rspec.
 
 To run the program, use the command **ruby main.rb**
 To run the test cases, use the command **rspec <rspec_filename>**
