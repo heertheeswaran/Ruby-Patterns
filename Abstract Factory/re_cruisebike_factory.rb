@@ -2,7 +2,7 @@ require_relative 'abstract_factory'
 require_relative 're'
 require_relative 'cruise'
 
-class RECruiseFactory < AbstractFactory
+class ReCruiseFactory < AbstractFactory
   def get_brand
     RE.new
   end

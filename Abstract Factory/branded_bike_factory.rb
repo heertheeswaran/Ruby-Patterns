@@ -4,7 +4,7 @@ require_relative 'yamaha_sportbike_factory'
 
 class BrandedBikeFactory
     def get_factory(factory_type)
-        if ['RECruise', 'HondaScooter', 'YamahaSport'].include? factory_type
+        if ['ReCruise', 'HondaScooter', 'YamahaSport'].include? factory_type
             self.class.const_get("#{factory_type}Factory").new
         end
     end

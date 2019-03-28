@@ -2,6 +2,6 @@ require_relative 'brand'
 
 class RE < Brand
   def brand
-    puts 'You are riding ROYAL ENFIELD.'
+    'You are riding RE.'
   end
 end
