@@ -4,13 +4,13 @@ require_relative 'android_ios_adapter'
 
 puts "Andriod"
 android=Android.new
-android.get_os
+puts android.get_os
 puts
 puts "IOS"
 ios=IOS.new
-ios.get_os
+puts ios.get_os
 puts
 # Android to ISO
 puts "Andriod to IOS"
 androidtoios=AndriodIOSAdapter.new(android)
-androidtoios.get_os
+puts androidtoios.get_os

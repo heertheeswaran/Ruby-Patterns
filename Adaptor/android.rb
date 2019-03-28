@@ -1,5 +1,5 @@
 class Android
     def get_os
-        puts "You are using Andriod."
+        "You are using Android."
     end
 end
