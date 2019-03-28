@@ -7,7 +7,7 @@ This consists of simple examples of the following patterns in Ruby:
 * [Template Method](#template-method)
 * [Adapter](#adapter)
 * [Decorator](#decorator)
-** [Instructions](#instructions)
+* [Instructions](#instructions)
 
 ## Factory
 
