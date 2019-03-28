@@ -7,6 +7,7 @@ This consists of simple examples of the following patterns in Ruby:
 * [Template Method](#template-method)
 * [Adapter](#adapter)
 * [Decorator](#decorator)
+** [Instructions](#instructions)
 
 ## Factory
 
@@ -52,3 +53,10 @@ The decorator pattern attaches additional responsibilities to an object dynamica
 Here we explain the decorator with pizza store as an example. Consider we have three pizza Farmhouse, PeppyPanner, SimplePizza in the store and the following add-ons onion, cheesebrust. 
 
 In the pizza sotre, we create objects for each pizza and returns the price to be paid. If the user wants the add-ons we need to return the price included the addon amount. So we add a pizza decorator. Using this decorator, we add those addon objects to the pizza object which returns the exat price of the pizza.
+
+## Instructions
+
+Considering you have installed Ruby. Install the Rspec gem using the Gemfile in each pattern with the command - bundle. To install Rspece directly run-- gem install rspec.
+
+To run the program, use the command **ruby main.rb**
+To run the test cases, use the command **rspec <rspec_filename>**
