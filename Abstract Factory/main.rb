@@ -14,7 +14,7 @@ puts honda_scooterbike_factory.get_brand.brand
 puts honda_scooterbike_factory.get_bike.drive
 puts
 
-re_cruisebike_factory = branded_shape_factory.get_factory('RECruise')
+re_cruisebike_factory = branded_shape_factory.get_factory('ReCruise')
 puts 'Royal Enfield Bike Factory'
 puts re_cruisebike_factory.get_brand.brand
 puts re_cruisebike_factory.get_bike.drive
