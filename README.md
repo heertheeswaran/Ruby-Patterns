@@ -1,4 +1,4 @@
-# Ruby-Patterns
+# Ruby-Patterns-test
 
 This consists of simple examples of the following patterns in Ruby:
 
